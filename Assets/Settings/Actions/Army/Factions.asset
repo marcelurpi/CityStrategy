@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221e2753f20f8be42ab01dbf7e8ebe53, type: 3}
+  m_Name: Factions
+  m_EditorClassIdentifier: 
+  Consequences:
+  - Description: Better organitzation is established
+    District: {fileID: 11400000, guid: 570a2cd547891074c90d9f0f257398a8, type: 2}
+    Value: 40
+  - Description: Entertainers abhor new terms and conditions for their events
+    District: {fileID: 11400000, guid: f040bde84c4994d42bb09aac2bc8b179, type: 2}
+    Value: -40
+  RandomConsequences:
+  - Description: Efficient police reduce robberies
+    District: {fileID: 11400000, guid: 74c35eca7b18b0d42b9c54e3e05df253, type: 2}
+    Value: 20
+    RandomPercent: 25
+  - Description: Corruption in poor streets is reduced
+    District: {fileID: 11400000, guid: b5f2d0b25b074e14ead9a333dd7e7510, type: 2}
+    Value: 20
+    RandomPercent: 50
+  - Description: The clergy see this desmembration innecessary
+    District: {fileID: 11400000, guid: 6716495ec2ab4ed4d9de26e1a4fdec74, type: 2}
+    Value: -20
+    RandomPercent: 25

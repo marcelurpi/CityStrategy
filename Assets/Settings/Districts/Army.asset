@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a59e1d1d62e0d42b963e26e97e6449, type: 3}
+  m_Name: Army
+  m_EditorClassIdentifier: 
+  IsUnique: 0
+  IsCenter: 0
+  StartValue: 50
+  ValueToReachLevel: 100
+  StartingLevel: 8
+  FuriousLevelThreshold: 5
+  Actions:
+  - {fileID: 11400000, guid: 252e28eaa592d1c4d8ee7d1f1baffece, type: 2}
+  - {fileID: 11400000, guid: d8e0dc2a8ec8e6b4b8ac274a16ce00e7, type: 2}
+  - {fileID: 11400000, guid: 652983053391ece439887a9df97bb22f, type: 2}
+  - {fileID: 11400000, guid: 224bcc08d10bc1d4682fc7a82d0930e4, type: 2}
+  - {fileID: 11400000, guid: c316368104aa6804fa0c20a185c9944a, type: 2}

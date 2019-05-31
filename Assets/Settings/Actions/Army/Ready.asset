@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221e2753f20f8be42ab01dbf7e8ebe53, type: 3}
+  m_Name: Ready
+  m_EditorClassIdentifier: 
+  Consequences:
+  - Description: Being prepared for any action creates a tense but secure ambient
+    District: {fileID: 11400000, guid: 570a2cd547891074c90d9f0f257398a8, type: 2}
+    Value: 40
+  - Description: defend our fields
+    District: {fileID: 11400000, guid: 7d6ecfdb8a0a59d4099ce0f1353d5646, type: 2}
+    Value: 20
+  - Description: defend our houses
+    District: {fileID: 11400000, guid: b5f2d0b25b074e14ead9a333dd7e7510, type: 2}
+    Value: 20
+  - Description: war glorification
+    District: {fileID: 11400000, guid: f040bde84c4994d42bb09aac2bc8b179, type: 2}
+    Value: -40
+  - Description: research time reduction
+    District: {fileID: 11400000, guid: 33d62627818659548bd0ca3700709f1c, type: 2}
+    Value: -20
+  - Description: tension don't sell
+    District: {fileID: 11400000, guid: 7c630efcb52247045917b5849f1206cd, type: 2}
+    Value: -20
+  RandomConsequences: []
